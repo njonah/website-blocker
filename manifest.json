@@ -1,0 +1,26 @@
+{
+    "manifest_version": 3,
+    "name": "Website Blocker",
+    "description": "Simple extension to block webpages",
+    "version": "1.0",
+    "icons": {
+      "48": "images/icon.png"
+    },
+     "background": {
+        "service_worker": "js/background.js"
+      },
+      "action": {
+        "default_icon": {
+          "48": "images/icon.png"
+        },
+        "default_popup": "html/menu.html"
+      },
+      "permissions": ["activeTab",
+      "scripting",
+      "storage",
+      "tabs"
+    ],
+    "host_permissions": [
+      "*://*/*"
+    ]
+  }

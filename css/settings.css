@@ -1,0 +1,32 @@
+#blockedsites {
+    width: 300px;
+    height: 300px;
+
+}
+button {
+    font-family:  Arial, Helvetica, sans-serif;
+    border-width: 0;
+    background-color: grey;
+    color: white;
+    font-size: larger;
+    border-radius: 34px;
+    width: 150;
+    
+  }
+  h2 {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  body {
+    font-family:  Arial, Helvetica, sans-serif;
+  }
+
+  body {
+    background-color: rgb(45, 45, 45);
+    color: white;
+    font-family:  Arial, Helvetica, sans-serif;
+}
+
+textarea {
+    font-family:  Arial, Helvetica, sans-serif;
+}
